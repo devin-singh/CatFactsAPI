@@ -9,16 +9,7 @@
 import Foundation
 
 struct TopLevelGETObject: Decodable {
-    let page: Int
-    let total: Int
-    let totalPages: Int
     let facts: [CatFact]
-    enum CodingKeys: String, CodingKey {
-        case totalPages = "total_pages"
-        case page
-        case total
-        case facts
-    }
 }
 
 struct TopLevelPOSTObject: Encodable {
@@ -28,4 +19,5 @@ struct TopLevelPOSTObject: Encodable {
 struct CatFact: Codable {
     let id: Int?
     let details: String
+    
 }

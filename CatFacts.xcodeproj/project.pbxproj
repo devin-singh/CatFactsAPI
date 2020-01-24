@@ -15,6 +15,9 @@
 		658028FD23DA461100BE3543 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 658028FC23DA461100BE3543 /* Default-568h@2x.png */; };
 		658028FF23DA466F00BE3543 /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658028FE23DA466F00BE3543 /* CatFact.swift */; };
 		6580290123DA491C00BE3543 /* CatFactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580290023DA491C00BE3543 /* CatFactController.swift */; };
+		6580290323DA4BEF00BE3543 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580290223DA4BEF00BE3543 /* NetworkError.swift */; };
+		6580290623DA586100BE3543 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580290523DA586100BE3543 /* UIViewControllerExtension.swift */; };
+		6580290823DA589800BE3543 /* CatFactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580290723DA589800BE3543 /* CatFactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		658028FC23DA461100BE3543 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		658028FE23DA466F00BE3543 /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
 		6580290023DA491C00BE3543 /* CatFactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactController.swift; sourceTree = "<group>"; };
+		6580290223DA4BEF00BE3543 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		6580290523DA586100BE3543 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		6580290723DA589800BE3543 /* CatFactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 		658028E123DA440B00BE3543 /* CatFacts */ = {
 			isa = PBXGroup;
 			children = (
+				6580290423DA585500BE3543 /* Helpers */,
 				658028F623DA445900BE3543 /* Model */,
 				658028F823DA445F00BE3543 /* Controllers */,
 				658028F723DA445C00BE3543 /* Views */,
@@ -73,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				658028FE23DA466F00BE3543 /* CatFact.swift */,
+				6580290223DA4BEF00BE3543 /* NetworkError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 		658028F923DA446200BE3543 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6580290723DA589800BE3543 /* CatFactTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -119,6 +128,14 @@
 				658028F023DA440D00BE3543 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		6580290423DA585500BE3543 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6580290523DA586100BE3543 /* UIViewControllerExtension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +212,11 @@
 			files = (
 				6580290123DA491C00BE3543 /* CatFactController.swift in Sources */,
 				658028E323DA440B00BE3543 /* AppDelegate.swift in Sources */,
+				6580290823DA589800BE3543 /* CatFactTableViewController.swift in Sources */,
+				6580290623DA586100BE3543 /* UIViewControllerExtension.swift in Sources */,
 				658028E523DA440B00BE3543 /* SceneDelegate.swift in Sources */,
 				658028FF23DA466F00BE3543 /* CatFact.swift in Sources */,
+				6580290323DA4BEF00BE3543 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
